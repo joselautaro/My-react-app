@@ -1,11 +1,11 @@
 import React from 'react'
 import "./CartWidget.css"
-import img from"./carrodecompras.png"
+import { BsCartDash } from "react-icons/bs" ;
 
 export const CartWidget = () => {
     return (
         <>
-        <img src={img} alt="" />
+        <BsCartDash className="widget"/>
         </>
     )
 }

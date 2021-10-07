@@ -2,13 +2,10 @@
     display: flex;
     justify-content: center;
 }
-.nav{
+.navbar{
     background-color: aqua;
-    display: flex;
-    justify-content: space-around;
 }
-.nav a {
-    text-decoration: none;
-    font-weight: bolder;
-    padding: 10px;
+.navlink{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
